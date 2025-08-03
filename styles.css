@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #999999;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://cdn.pixabay.com/animation/2022/07/31/06/04/06-04-32-13_512.gif");
+
+}
+
+main {
+    background-color: rgb(56, 56, 56);
+    background-image: url('assets/alexa-container.png');
+    height: 450px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto auto;
+    border-radius: 15px;
+}
+
+.button img {
+    font-size: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.3s ease-in-out;
+    margin: 20px;
+}
+
+.button img:hover {
+    opacity: 0.7;
+}
+
+.container {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container p {
+    margin: 8px 0;
+    font-size: 30px;
+    color: #fffdd9;
+    font-weight: bold;
+}
+
+.your-score span {
+    color: rgba(3, 172, 234, 0.99);
+}
+
+.machine-score span {
+    color: rgba(230, 100, 107, 0.99);
+}
+
+.reload-container {
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.reload-container:hover {
+    opacity: 0.8;
+}
+
+footer {
+    position: relative;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    opacity: 0.8;
+}
+
+footer span {
+    color: rgb(27, 134, 235);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
